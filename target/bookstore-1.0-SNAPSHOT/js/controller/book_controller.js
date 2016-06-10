@@ -99,31 +99,13 @@ App.controller('BookController', ['$scope', '$modal', 'BookService',  function (
         grecaptcha.reset(widgetId);
     };
 
-    $scope['delete'] = function() {
-        $scope.deleted = 'Deleted';
-    };
-
-    $scope['deleteConfirm'] = function() {
-        $confirm({text: 'Are you sure you want to delete?'})
-            .then(function() {
-                $scope.deletedConfirm = 'Deleted';
-            });
-    };
-
-    $scope['deleteConfirmWithSettings'] = function(settings) {
-        $confirm(angular.extend({text: 'Are you sure you want to delete?'}, settings || {}))
-            .then(function() {
-                $scope.deletedConfirm = 'Deleted';
-            });
-    };
-
     $scope.open = function (book,remove) {
         $scope.modal={};
         if(remove){
             $scope.modal.templateUrl = 'removeContent.html';
         }
         else {
-            $scope.modal.templateUrl = 'myModalContent.html';
+            $scope.modal.templateUrl = 'addContent.html';
         }
         $modal.open({
             templateUrl: $scope.modal.templateUrl,
@@ -169,8 +151,6 @@ App.controller('BookController', ['$scope', '$modal', 'BookService',  function (
 
             }
         });
-
-
     };
 
 }]);

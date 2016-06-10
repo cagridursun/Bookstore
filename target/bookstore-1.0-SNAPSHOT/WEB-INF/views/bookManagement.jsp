@@ -8,7 +8,7 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body ng-app="myApp" class="ng-cloak">
-<script type="text/ng-template" id="myModalContent.html">
+<script type="text/ng-template" id="addContent.html">
     <div class="formcontainer">
         <form ng-submit="submit(this)" name="myForm" class="form-horizontal">
             <input type="hidden" ng-model="ctrl.book.id" />
