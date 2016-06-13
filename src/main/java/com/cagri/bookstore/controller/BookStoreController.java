@@ -13,7 +13,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import java.util.List;
 
 /**
- * Created by cagri.dursun on 7.6.2016.
+ * Created by cagri.dursun
  */
 
 @RestController

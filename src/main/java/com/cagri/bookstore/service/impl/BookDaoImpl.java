@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- * Created by cagri.dursun on 7.6.2016.
+ * Created by cagri.dursun
  */
 
 @Repository

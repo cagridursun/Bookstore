@@ -5,7 +5,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 import javax.servlet.Filter;
 
 /**
- * Created by cagri.dursun on 8.6.2016.
+ * Created by cagri.dursun
  */
 public class BookStoreInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 

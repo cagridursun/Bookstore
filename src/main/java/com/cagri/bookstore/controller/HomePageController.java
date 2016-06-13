@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * Created by cagri.dursun on 7.6.2016.
+ * Created by cagri.dursun
  */
 
 @Controller

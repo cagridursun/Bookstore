@@ -5,7 +5,7 @@ import com.cagri.bookstore.model.Book;
 import java.util.List;
 
 /**
- * Created by cagri.dursun on 7.6.2016.
+ * Created by cagri.dursun
  */
 public interface BookDao {
 

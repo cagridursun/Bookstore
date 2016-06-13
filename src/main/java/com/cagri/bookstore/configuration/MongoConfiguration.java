@@ -15,7 +15,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 import java.util.ArrayList;
 
 /**
- * Created by cagri.dursun on 9.6.2016.
+ * Created by cagri.dursun
  */
 @Configuration
 @EnableMongoRepositories
