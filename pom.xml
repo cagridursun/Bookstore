@@ -140,7 +140,7 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>1.0.3</version>
                 <configuration>
-                    <appName>bookstore-mngt</appName>
+                    <appName>bookstore-management</appName>
                     <processTypes>
                         <web>java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war</web>
                     </processTypes>
