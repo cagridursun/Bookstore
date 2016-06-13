@@ -118,7 +118,7 @@ App.controller('BookController', ['$scope', '$modal', 'BookService',  function (
 
                 $scope.onloadCallback = function () {
                     widgetId = grecaptcha.render(document.getElementById('captcha'), {
-                        'sitekey' : '6LelDSITAAAAAMhfhXEvgqy2jqsQ8KORLLWlhz1Q'
+                        'sitekey' : '6LfQbSITAAAAAC1J-H6dzkL-RWM91a06002Rdi1k'
                     });
                 };
 

@@ -102,11 +102,9 @@
         </div>
     </div>
 </div>
-
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
-<script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.10.0.js"></script>
+<script src="<c:url value='/js/angular.js' />"></script>
+<script src="<c:url value='/js/ui-bootstrap-tpls-0.10.0.js' />"></script>
 <script src="<c:url value='/js/app.js' />"></script>
-<script src="<c:url value='/js/angular-confirm.min.js' />"></script>
 <script src="<c:url value='/js/service/book_service.js' />"></script>
 <script src="<c:url value='/js/controller/book_controller.js' />"></script>
 

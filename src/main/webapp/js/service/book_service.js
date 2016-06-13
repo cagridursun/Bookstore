@@ -5,7 +5,7 @@ App.factory('BookService', ['$http', '$q', function($http, $q){
 	return {
 		
 			fetchAllBooks: function() {
-					return $http.get('http://localhost:8787/book/')
+					return $http.get('/book/')
 							.then(
 									function(response){
 										return response.data;
@@ -18,7 +18,7 @@ App.factory('BookService', ['$http', '$q', function($http, $q){
 			},
 		    
 		    createBook: function(book){
-					return $http.post('http://localhost:8787/book/', book)
+					return $http.post('/book/', book)
 							.then(
 									function(response){
 										return response.data;
@@ -31,7 +31,7 @@ App.factory('BookService', ['$http', '$q', function($http, $q){
 		    },
 		    
 		    updateBook: function(book, id){
-					return $http.post('http://localhost:8787/book/'+id, book)
+					return $http.post('/book/'+id, book)
 							.then(
 									function(response){
 										return response.data;
@@ -44,7 +44,7 @@ App.factory('BookService', ['$http', '$q', function($http, $q){
 			},
 		    
 			deleteBook: function(id){
-					return $http.delete('http://localhost:8787/book/'+id)
+					return $http.delete('/book/'+id)
 							.then(
 									function(response){
 										return response.data;
